@@ -1,0 +1,49 @@
+{
+  "name": "angular-dijalog",
+  "version": "0.1.0",
+  "description": "Modern dialogs for your Angular application",
+  "main": "dist/angular-dijalog.min.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matoilic/angular-dijalog.git"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "dialog",
+    "lightbox",
+    "overlay"
+  ],
+  "author": "Mato Ilic (info@matoilic.ch)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matoilic/angular-dijalog/issues"
+  },
+  "homepage": "https://github.com/matoilic/angular-dijalog#readme",
+  "devDependencies": {
+    "angular": "^1.4.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-browserstack": "^1.0.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-gzip": "^1.1.0",
+    "gulp-jscs-html-reporter": "^0.1.1",
+    "gulp-jscs-with-reporter": "^1.4.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-jshint-html-reporter": "^0.1.2",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-protractor": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-sync": "^0.1.4",
+    "gulp-uglify": "^1.2.0",
+    "jasmine-core": "^2.3.4",
+    "jscs": "git+https://github.com/jscs-dev/node-jscs.git",
+    "jscs-html-reporter": "0.0.4",
+    "protractor": "^2.1.0"
+  }
+}
