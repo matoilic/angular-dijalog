@@ -1,7 +1,7 @@
 {
   "name": "angular-dijalog",
   "version": "0.1.0",
-  "description": "Modern dialogs for your Angular application",
+  "description": "Modern dialogs for your Angular apps.",
   "main": "dist/angular-dijalog.min.js",
   "scripts": {
     "test": "gulp test"
