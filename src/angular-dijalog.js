@@ -162,7 +162,7 @@
 
     if(typeof define === 'function' && define.amd) {
         define(['dijalog'], function(dj) {
-            dijaalog = dj;
+            dijalog = dj;
 
             return dijalogModule;
         });
