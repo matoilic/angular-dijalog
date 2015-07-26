@@ -155,15 +155,15 @@
         ];
     }
 
-    angular
+    var dijalogModule = angular
         .module('dijalog', [])
         .provider('dijalog', [dijalogProvider]);
 
     if(typeof define === 'function' && define.amd) {
         define(function() {
-            return 'dijalog';
+            return dijalogModule;
         });
     } else if(typeof exports === 'object') {
-        module.exports = 'dijalog';
+        module.exports = dijalogModule;
     }
 })();
