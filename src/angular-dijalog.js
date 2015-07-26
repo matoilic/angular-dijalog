@@ -4,6 +4,7 @@
 
 (function() {
     var theme = 'dijalog-theme-default';
+    var dijalog;
 
     function AngularDijalog($compile, $templateRequest, $q, $rootScope) {
         this.$compile = $compile;
@@ -160,10 +161,15 @@
         .provider('dijalog', [dijalogProvider]);
 
     if(typeof define === 'function' && define.amd) {
-        define(function() {
+        define(['dijalog'], function(dj) {
+            dijaalog = dj;
+
             return dijalogModule;
         });
     } else if(typeof exports === 'object') {
+        dijalog = require('dijalog');
         module.exports = dijalogModule;
+    } else {
+      dijalog = window.dijalog;
     }
 })();
